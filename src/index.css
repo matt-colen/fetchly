@@ -1,1 +1,33 @@
+:root {
+  --font-header: "Playfair Display", serif;
+  --font-body: "Montserrat", sans-serif;
+  --color-txt-primary: #222;
+  --color-cta: #6504b5;
+}
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body,
+input,
+button {
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-header);
+}
+
+p {
+  line-height: 1.4;
+}
+
+/* Utility */
+.flex {
+  display: flex;
+}

@@ -1,0 +1,15 @@
+.nav-link {
+  color: var(--color-txt-primary);
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  opacity: 0.9;
+}
+
+.active-link {
+  text-decoration: underline;
+  font-weight: bold;
+}

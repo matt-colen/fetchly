@@ -1,10 +1,17 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout";
+import Search from "./components/Search";
 import "./App.css";
 
 function App() {
   return (
-    <>
-      <h1>Fetchly</h1>
-    </>
+    <Router>
+      <Routes>
+        <Route element={<Layout />}>
+          <Route path="/" element={<Search />} />
+        </Route>
+      </Routes>
+    </Router>
   );
 }
 
