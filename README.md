@@ -1,3 +1,3 @@
 # Fetchly
 
-An app to search for adoptable pets using the Petfinder API.  
+An app to find your perfect pet.   
