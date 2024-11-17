@@ -10,8 +10,8 @@ export default function Nav() {
       </NavLink>
       <NavList
         links={[
-          { txt: "Find Pets", path: "/" },
-          { txt: "Saved Pets", path: "saved" },
+          { txt: "Find Dogs", path: "/" },
+          { txt: "Favorites", path: "saved" },
         ]}
       />
     </nav>

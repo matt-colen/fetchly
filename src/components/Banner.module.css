@@ -1,0 +1,24 @@
+.banner {
+  position: relative;
+  background-image: url("../assets/images/hero-banner.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 10em 0;
+  color: white;
+  text-align: center;
+}
+
+.banner-content {
+  z-index: 3;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 2;
+}

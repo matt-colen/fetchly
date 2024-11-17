@@ -1,11 +1,16 @@
-import { Outlet } from "react-router-dom"
-import Nav from "./Nav"
+import { Outlet } from "react-router-dom";
+import Nav from "./Nav";
 
 export default function Layout() {
   return (
     <>
-      <Nav />
-      <Outlet />
+      <header>
+        <Nav />
+      </header>
+      <main>
+        <Outlet />
+      </main>
+      <footer></footer>
     </>
-  )
-};
+  );
+}
